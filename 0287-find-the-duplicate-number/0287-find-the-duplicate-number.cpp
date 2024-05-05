@@ -1,6 +1,6 @@
 class Solution {
 public:
-/*
+
 
     int findDuplicate(vector<int>& nums) {
         unordered_set<int>st;
@@ -10,7 +10,7 @@ public:
                 return elm;
         return -1;
     }
-*/
+/*
     int findDuplicate(vector<int>& nums) {
         vector<int>vec (nums);
         sort(vec.begin(),vec.end());
@@ -19,4 +19,5 @@ public:
                 return vec[i];
         return -1; 
     }
+*/
 };
